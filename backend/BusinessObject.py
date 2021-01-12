@@ -27,3 +27,51 @@ class Customer:
             'PostalCode' : self.PostalCode,
             'Country' : self.Country
         }
+#Categorie
+class Categorie:
+def__init_(self, CategoryID=None, CategoryName=None, Description=None):
+        self.CategoryID = CategoryID
+        self.CategoryName = CategoryName
+        self.Description = Description
+
+    def fetch_data(self,data):
+        self.CategoryID = data[0]
+        self.CategoryName  = data[1]
+        self.Description = data[2]
+    
+    def to_json(self):
+        return{
+            'CategoryID' : self.CategoryID,
+            'CategoryName' : self.CategoryName,
+            'Description' : self.Description
+        }
+#Employee
+class Employee:
+    def __init__(self, EmployeeID=None, LastName=None, FirstName=None, Birthdate=None, Photo=None, Notes=None):
+        self.EmployeeID = EmployeeID
+        self.LastName = LastName
+        self.FirstName = FirstName
+        self.Birthdate = Birthdate
+        self.Photo = Photo
+        self.Notes = Notes
+
+    def fetch_data(self, data):
+        self.EmployeeID = data[0]
+        self.LastName = data[1]
+        self.FirstName = data[2]
+        self.Birthdate = data[3]
+        self.Photo = data[4]
+        self.Notes = data[5]
+
+    def to_json(self):
+        return {
+            'EmployeeID': self.EmployeeID,
+            'LastName': self.LastName,
+            'FirstName': self.FirstName,
+            'Birthdate': self.Birthdate,
+            'Photo': self.Photo,
+            'Notes': self.Notes
+        }
+
+if __name__ == "__main__":
+    print('this is business object package')
