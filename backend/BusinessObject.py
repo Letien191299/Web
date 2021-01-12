@@ -27,5 +27,3 @@ class Customer:
             'PostalCode' : self.PostalCode,
             'Country' : self.Country
         }
-if __name__ == "__main__":
-    print('this is business object package')
