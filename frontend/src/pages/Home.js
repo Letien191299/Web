@@ -14,7 +14,7 @@ const CarouselPage = () => {
     />
     <Carousel.Caption>
       <h3>CÔNG NGHỆ WEB</h3>
-      <p>Lớp 17CT1 - Nhóm 3</p>
+      <p>Lớp 17CT1</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -25,7 +25,7 @@ const CarouselPage = () => {
     />
 
     <Carousel.Caption>
-      <h3>LÊ SỸ THÀNH</h3>
+      <h3>Đỗ Lê Tiến</h3>
       <p>Next</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -37,23 +37,12 @@ const CarouselPage = () => {
     />
 
     <Carousel.Caption>
-      <h3>Tạ Văn Ân</h3>
+      <h3>Lê Hoàng Quốc</h3>
       <p>Next</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Đặng Văn Trọng</h3>
-      <p>Next</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
+   
   );
 }
 
