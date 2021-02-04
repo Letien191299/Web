@@ -10,9 +10,8 @@ function Footer() {
             <div className="col">
               <h4>Nhóm sinh viên</h4>
               <h3 className="list-unstyled">
-                <li>Lê Sỹ Thành</li>
-                <li>Tạ Văn Ân</li>
-                <li>Đặng Văn Trọng</li>
+                <li>Đỗ Lê Tiến</li>
+                <li>Lê Hoàng Quốc</li>
               </h3>
             </div>
             {/* Column2 */}
